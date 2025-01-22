@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      name: ${{ vars.Name }}
-      talent: ${{ secrets.Test }}
+      name: ${{ vars.NAME }}
+      talent: ${{ secrets.TEST }}
 
     steps:
       - name: Checkout code
